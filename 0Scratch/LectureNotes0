@@ -1,0 +1,65 @@
+# CS50 - Lecture 0 - Scratch
+
+## Description
+CS50 is not about coding it is about problem solving. This skill can be used in
+other problem domains also.
+
+## Binary
+Computers use a binary system because it enables Computers to display data
+efficiently. (example: Fingers count in unary system and in binary number).
+123 has a 1 in a 100th. column a 2 in a 20th column or 3 in a 1th column.
+If you want to get binary from this decimal representations you have a 2^X
+columns. 123_dec would be 0*128 + 1*64 + 1*32 + 1*16 + 1*8 + 0*4 + 0*2 + 1*1 or
+0111 1001(123_bin) bzw 0111 1111 (128_bin) - 0000 0110 (5_bin)
+
+## ASCII
+Code to represent letters by numbers (or switches/transistors). A = 65, B=66 ..
+This is an abstraction to the basic problem of binary representations
+
+## RGB
+RGB = red/green/blue; They3 bytes (8bits). Color values for one pixel.
+Abstraction which represents a color in binary code which get interpreted by a
+graphics program.
+
+## Algorithms
+Definition Step by step instructions to solve a problem (Example: Peanut Butter
+Sandwich). It is easy to oversee details. Human errors are the reason for most
+bugs or undefined behaviour.
+
+### How do I find a name in a telephone book?
+One
+correct algorithm is to just scan one page by page. Another one would be to scan
+two pages and go back one page if we are gone to far. third alternative is to
+split the problem domain in half and choose the right half so often until the
+proper site is found.
+
+### Complexity
+Time needed for one page turn of the problem is named n. Then the first Algorithm
+is proportional to n, the second algorithm is proportional to n/2 and the last
+one is a curved line which becomes unrelated to the size of the phone book for
+many pages.
+
+### Algorithm: Binary search (Linear search is going element through element)
+0  pick up phone book                    // pick up is smth. like a function
+1  open to middle of phone book          // open to is another one
+2  look at names
+3  if Smith is among names               // if is a keyword for forks
+4     call Smith
+5  else if Smith is earlier in book
+6     open to middle of left half of book
+7     go back to step 2                   // loop
+8  else if Smith is later in book
+9     open to middle of right half of book
+10    go back to step 2
+11 else                                 // if no Smith is in the Book
+12    quit
+
+## Scratch
+Because syntax is way easier as C and the syntax can come in the way.
+Scratch are graphical puzzle types which represent the same concepts. Sprites
+are characters. Drag and Drop with he same logic. purple are functions, yellow
+are branches, orange are variables, green blocks are boolean expressions. yellow
+are also loops. You can multi threading (multiple pieces), and event handling in
+scratch.
+Some basic examples: Sounds, movement, counting, random, programs with endless
+loop, collision of sprites, event handeling, key press recognition
