@@ -1,0 +1,45 @@
+# CS50 - Lecture 1 - C
+
+## Transition from Scratch to C
+Textual representation. Purple Scratch part is a function.
+in C: printf("Whatever\n"); is an example structure.
+You need some structure to set up your code: int main(void){}
+"Whatever\n" is called a String.
+
+#include <stdio.h> // file with standard input/output functions
+
+int main(void)
+{
+    printf("Whatever\n");
+}
+
+## forever (Scratch) equals while-loop c
+
+while (true) // true is a boolean
+{
+    printf("hello, world\n");
+}
+
+## repeat x equals for
+
+for (int i = 0; i < x; i++)
+{
+    printf("hello, world\n")
+}
+
+... other c-constructs I all ready now: if-else
+
+## Source Code
+Source code like the shown helloworld program is translated by an compiler to
+machine code (0011101101....)
+Use CS50 IDE to write your code and compile it.
+
+## Write files
+Convention in C: Always use small letters, don't use spaces, end every Source
+code file ends with .c
+The IDE has an terminal window where you can use clang (clang hello.c -> a.out)
+In a.out the code is saved in machine code.
+"\n" stands for a newline. To name a compiled file (clang -o hello hello.c). -o
+is a commandline option which stands for output
+... I stopped noting everything because I am all ready familar wiht C and linux
+command line
